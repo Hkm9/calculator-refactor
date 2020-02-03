@@ -35,7 +35,17 @@ function doMath(operation, a, b) {
   }
   // write your code below this comment:
 
-
+//logic.js
+  if (op == "add"){
+    Calculate = a + b;
+  } else if (op == "min"){
+    Calculate = a - b;
+  } else if (op == "div"){
+    Calculate = a / b;
+  }else if (op == "mul"){
+    Calculate = a * b;
+  }
+}
 
 }
 
