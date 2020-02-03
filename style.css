@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+
+.container{
+  background-color: black;
+  background-image: linear-gradient(black, white);
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 50vh;
+}
+
+.box{
+  background-color:yellow ;
+  margin-left: 35vw;
+  width: 30vw;
+  padding: 20px;
+  height: 20vh;
+  box-shadow: 12px 12px 10px black;
+}
+
+.value{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.operator{
+  padding-bottom: 20px;
+}

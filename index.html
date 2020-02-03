@@ -6,22 +6,32 @@
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-  <form>
-    value 1: <input type="text" id="value1">
-    value 2: <input type="text" id="value2">
-    operator:
-    <select id="operator">
-      <option value="add">Add</option>
-      <option value="min">Minus</option>
-      <option value="div">Divide</option>
-      <option value="mul">Multiply</option>
-    </select>
-    <button type="button">Calculate</button>
-  </form>
+  <div class="container">
+    <div class="box">
+      <form class="value">
+        value 1: <input type="text" id="value1">
+        value 2: <input type="text" id="value2">
+      </form>
+      <form class="operator">
+        operator:
+        <select id="operator">
+          <option value="add">Add</option>
+          <option value="min">Minus</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+      </select>
+    </form>
+    <form class="button">
+      <button type="button">Calculate</button>
+    </form>
+  </div>
 </body>
+
 <script src="scripts/"></script>
 
 </html>
