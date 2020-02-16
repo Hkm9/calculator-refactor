@@ -36,6 +36,7 @@ function doMath(operation, a, b) {
   // write your code below this comment:
   var Calculate = 0;
 
+
   if (operation == "add"){
     Calculate = a + b;
   } else if (operation == "min"){
@@ -49,6 +50,7 @@ function doMath(operation, a, b) {
   }
 
   return Calculate;
+
 }
 
 
