@@ -34,9 +34,21 @@ function doMath(operation, a, b) {
     throw new Error('b should be a number');
   }
   // write your code below this comment:
+  var Calculate = 0;
 
+  if (operation == "add"){
+    Calculate = a + b;
+  } else if (operation == "min"){
+    Calculate = a - b;
+  } else if (operation == "div"){
+    Calculate = a / b;
+  }else if (operation == "mul"){
+    Calculate = a * b;
+  }else {
+    return "invalid operation";
+  }
 
-
+  return Calculate;
 }
 
 
