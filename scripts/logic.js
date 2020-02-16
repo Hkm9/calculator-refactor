@@ -34,18 +34,22 @@ function doMath(operation, a, b) {
     throw new Error('b should be a number');
   }
   // write your code below this comment:
+  var Calculate = 0;
 
-//logic.js
-  if (op == "add"){
+
+  if (operation == "add"){
     Calculate = a + b;
-  } else if (op == "min"){
+  } else if (operation == "min"){
     Calculate = a - b;
-  } else if (op == "div"){
+  } else if (operation == "div"){
     Calculate = a / b;
-  }else if (op == "mul"){
+  }else if (operation == "mul"){
     Calculate = a * b;
+  }else {
+    return "invalid operation";
   }
-}
+
+  return Calculate;
 
 }
 
